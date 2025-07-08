@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 header {
@@ -10,6 +11,8 @@ header {
   background-color: #fff;
   border-bottom: 1px solid #ddd;
   z-index: 1000;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.13);
+  
 }
 
 nav {
@@ -20,6 +23,7 @@ nav {
   max-width: 1200px;
   margin: 0 auto;
   font-size: 1.4rem;
+
 }
 
 
@@ -38,8 +42,9 @@ nav {
 .nav-mid ul li a {
   text-decoration: none;
   color: #333;
-  font-weight: 500;
+  font-weight: 800;
   position: relative;
+  
 }
 
 .nav-mid ul li a:hover {

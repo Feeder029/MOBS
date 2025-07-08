@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="Assets/CSS/header.css">
+<link rel="stylesheet" href="Assets/CSS/header.css?v=1.0.0">
 <header>
     <nav>
         <div class="nav-left">

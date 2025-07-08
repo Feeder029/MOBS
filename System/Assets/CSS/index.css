@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    overflow-y: scroll;
+}
+
+.Feedback{
+    position: fixed;
+    right: -25px;
+    top: 50%;
+    transform: rotate(-90deg);
+}
+
+.Feedback button{
+    background-color:  #fb4323;
+    color: #ffff;
+    border: 1px solid #b6402e;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.Feedback button:hover{
+    background-color: #8a473d;
+}
