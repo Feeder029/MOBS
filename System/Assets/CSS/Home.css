@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section{
+    width: 100%;
+}
+
+#Home{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.3rem 2rem;
+    max-width: 1200px;
+}
+
+.left-home span{
+    color:  #fb4323;
+    font-size: 2.5rem;
+}
+
+.left-home h1{
+    font-size: 4.8rem;
+}
+
+.home-btn{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.home-btn button{
+    font-size: 1.1rem;
+    padding: 15px 20px;
+    border-radius: 25px;
+    color: #ffffff;
+    border: 0;
+}
+
+
+.home-btn #btn-download{
+    background-color: #24a640;
+}
+
+.home-btn #btn-download:hover,.home-btn #btn-view-menu:hover{
+   background-color: rgb(85, 85, 85);
+}
+
+.home-btn #btn-view-menu{
+    background-color: #fb4323;
+}
