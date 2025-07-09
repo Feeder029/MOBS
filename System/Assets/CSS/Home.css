@@ -5,6 +5,9 @@
   font-family: 'Inter', sans-serif;
 }
 
+button{
+    cursor: pointer;
+}
 
 section{
     width: 100%;
@@ -27,7 +30,6 @@ section{
     align-items: center;
     padding: 0.3rem 2rem;
     max-width: 1200px;
-    background-color: #fb4323;
 }
 
 #Menu{
@@ -36,8 +38,8 @@ section{
     justify-content: space-between;
     align-items: center;
     padding: 0.3rem 2rem;
-    max-width: 1200px;
     background-color: #ffffff;
+    max-width: 1200px;
 }
 
 #Rewards{
@@ -46,8 +48,8 @@ section{
     justify-content: space-between;
     align-items: center;
     padding: 0.3rem 2rem;
-    max-width: 1200px;
     background-color: #fb4323;
+    max-width: 1200px;
 }
 
 .left-home span{
@@ -89,4 +91,66 @@ section{
 
 .right-home img{
     filter: drop-shadow(0 20px 20px rgba(0, 0, 0, 0.45));
+}
+
+.introduce-container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.intcont1, .intcont2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 3rem;
+    gap: 100px;
+}
+
+.intcont1 img, .intcont2 img{
+    width: 400px;
+}
+
+.intcont1{
+    background-color: #f4d35e;
+}
+
+.intcont2 img{
+    background-color: #faf0ca;
+}
+
+.intcont2{
+    background-color: #ee964b;
+}
+
+.intcont1-details,.intcont2-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.introduce-container h4{
+    color: #fb4323;
+    font-size: 20px;
+}
+
+.introduce-container h3{
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.introduce-container p{
+    font-size: 20px;
+}
+
+.introduce-container button{
+    padding: 15px;
+    max-width: 150px;
+    border-radius: 25px;
+    border: none;
+    background-color: #fb4323;
+    color: #ffffff;
+    font-weight: 800;
 }

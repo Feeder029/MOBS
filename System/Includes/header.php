@@ -1,8 +1,8 @@
-<link rel="stylesheet" href="Assets/CSS/header.css?v=1.0.0">
+<link rel="stylesheet" href="Assets/CSS/header.css?v=1.0.1">
 <header>
     <nav>
         <div class="nav-left">
-            <a href="#"><img src="../System/Assets/Img/Logo.png" alt="Logo"> </a>
+            <a href="#"><img src="../System/Assets/Img/Logo-nobg.png" alt="Logo"> </a>
         </div>
         <div class="nav-mid">
             <ul>

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="Assets/CSS/Home.css?v=1.0.0">
+    <link rel="stylesheet" href="Assets/CSS/Home.css?v=1.0.3">
 </head>
 <body> 
     <section id="Home">
@@ -21,7 +21,27 @@
     </section>
 
     <section id="Introduce">
-        <img src="Assets/Img/kwekkweknobg.png" alt="kwekkwek" draggable="false">
+        <div class="introduce-container">
+            <div class="intcont1">
+                <img src="Assets/Img/kwekkweknobg.png" alt="kwekkwek" draggable="false">
+                <div class="intcont1-details">
+                    <h4>New Limited Time Food</h4>
+                    <h3>Kikiam</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi nesciunt sequi rerum fugit dignissimos neque.</p>
+                    <button>Order Now</button>
+                </div>
+            </div>
+
+            <div class="intcont2">
+                <div class="intcont2-details">
+                    <h4>New Limited Time Food</h4>
+                    <h3>Kikiam</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi nesciunt sequi rerum fugit dignissimos neque.</p>
+                    <button>Order Now</button>
+                </div>
+                <img src="Assets/Img/kwekkweknobg.png" alt="kwekkwek" draggable="false">
+            </div>
+        </div>
     </section>
 
     <section id="Menu">
